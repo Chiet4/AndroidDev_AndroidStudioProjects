@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -61,8 +62,22 @@ fun LearnAlignmentArrangement(){
 //        Text(text = "Coluna Alignment e Arrangement")
 //    }
 
-    
 
+    // Não há arrangement em boxs
+    // BoxAlignment: TopStart, TopCenter, TopEnd, BottomStart, BottomCenter, BottomEnd,
+    // Center, CenterStart, CenterEnd
 
+    Box{
+        Text(text = "TopStart" , modifier = Modifier.align(Alignment.TopStart))
+        Text(text = "TopCenter" , modifier = Modifier.align(Alignment.TopCenter))
+        Text(text = "TopEnd" , modifier = Modifier.align(Alignment.TopEnd))
+        Text(text = "BottomStart" , modifier = Modifier.align(Alignment.BottomStart))
+        Text(text = "BottomCenter" , modifier = Modifier.align(Alignment.BottomCenter))
+        Text(text = "BottomEnd" , modifier = Modifier.align(Alignment.BottomEnd))
+        Text(text = "Center" , modifier = Modifier.align(Alignment.Center))
+        Text(text = "CenterStart" , modifier = Modifier.align(Alignment.CenterStart))
+        Text(text = "CenterEnd" , modifier = Modifier.align(Alignment.CenterEnd))
+
+    }
 
 }
