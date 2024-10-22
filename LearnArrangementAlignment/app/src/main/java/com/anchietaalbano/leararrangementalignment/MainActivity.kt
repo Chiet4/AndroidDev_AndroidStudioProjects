@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -46,8 +47,17 @@ fun LearnAlignmentArrangement(){
                     // Absolute.Left, Absolute.Right, Absolute.Center
                     // Absolute.SpaceBetween, Absolute.SpaceAround, Absolute.SpaceEvenly
 
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.Center) {
-        Text(text = "Linha Alignment e Arrangement")
-    }
+//    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.Center) {
+//        Text(text = "Linha Alignment e Arrangement")
+//    }
 
+
+    //ColumnAlignment: Start, CenterHorizontal, End
+    //ColumnArrangment: Top, Center, Botton, SpaceEvenly, SpaceBetween, SpaceAround
+
+    Column(horizontalAlignment = Alignment.Start,
+        verticalArrangement =  Arrangement.Center
+    ) {
+        Text(text = "Coluna Alignment e Arrangement")
+    }
 }
