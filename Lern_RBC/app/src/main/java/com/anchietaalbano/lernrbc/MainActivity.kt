@@ -6,12 +6,14 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -42,9 +44,22 @@ fun LearnRowColumnBox(){
     Text(text = "Uma caixa") */ //Overlap
 
     //Alinhamento e organização centralizada
-    Column (horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center ) {
-        Text(text = "Coluna 1")
-        Text(text = "Coluna 2")
+//    Column (horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center ) {
+//        Text(text = "Coluna 1")
+//        Text(text = "Coluna 2")
+//    }
+
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.Center) {
+        Text(text = "Linha 1")
+        Text(text = "Linha 2")
     }
 
+}
+
+@Preview(showBackground = true)
+@Composable
+fun ShowPreview(){
+    LernRBCTheme {
+        LearnRowColumnBox()
+    }
 }
