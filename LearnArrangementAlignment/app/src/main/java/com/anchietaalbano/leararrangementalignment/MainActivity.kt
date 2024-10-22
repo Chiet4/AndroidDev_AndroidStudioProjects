@@ -55,9 +55,14 @@ fun LearnAlignmentArrangement(){
     //ColumnAlignment: Start, CenterHorizontal, End
     //ColumnArrangment: Top, Center, Botton, SpaceEvenly, SpaceBetween, SpaceAround
 
-    Column(horizontalAlignment = Alignment.Start,
-        verticalArrangement =  Arrangement.Center
-    ) {
-        Text(text = "Coluna Alignment e Arrangement")
-    }
+//    Column(horizontalAlignment = Alignment.Start,
+//        verticalArrangement =  Arrangement.Center
+//    ) {
+//        Text(text = "Coluna Alignment e Arrangement")
+//    }
+
+    
+
+
+
 }
