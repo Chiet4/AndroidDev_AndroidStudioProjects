@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lern Text Modifiers</string>
+    <string name="saudacao">Olá pessoal, tudo bem? de uma string declarada</string>
+</resources>
