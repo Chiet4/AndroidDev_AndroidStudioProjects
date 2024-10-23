@@ -45,6 +45,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     SplashScreenJcTheme {
-        Greeting("Android")
+        Greeting("Albano")
     }
 }
