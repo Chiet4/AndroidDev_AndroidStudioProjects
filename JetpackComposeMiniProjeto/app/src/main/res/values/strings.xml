@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Jetpack Compose Mini Projeto</string>
     <string name="uiText">XML e JetPack Compose</string>
-    <string name="textProject">Um projeto de texte</string>
+    <string name="textProject">Um projeto de teste</string>
 </resources>
