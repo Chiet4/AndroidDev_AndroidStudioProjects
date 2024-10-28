@@ -128,7 +128,7 @@ fun LoginScreen(){
                     text = "Ou faça login com",
                     fontSize = 16.sp,
                     modifier = Modifier
-                        .padding(top = 24.dp)
+                        .padding(horizontal = 24.dp)
                 )
             Divider(modifier = Modifier.weight(1f), color = Color.Gray)
         }
