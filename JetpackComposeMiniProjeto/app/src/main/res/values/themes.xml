@@ -2,4 +2,8 @@
 <resources>
 
     <style name="Theme.JetpackComposeMiniProjeto" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="cornerImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">25dp</item>
+    </style>
 </resources>
